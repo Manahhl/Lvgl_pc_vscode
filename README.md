@@ -1,3 +1,13 @@
+<!--
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2024-07-10 15:32:42
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2024-07-10 18:09:22
+ * @FilePath: \lv_port_pc_vscode\README.md
+ * @Description:
+ *
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved.
+-->
 # Simulator project for LVGL embedded GUI Library
 
 The [LVGL](https://github.com/lvgl/lvgl) is written mainly for microcontrollers and embedded systems, however you can run the library **on your PC** as well without any embedded hardware. The code written on PC can be simply copied when your are using an embedded system.
@@ -20,7 +30,7 @@ git clone --recursive https://github.com/lvgl/lv_port_pc_vscode
 ### Install SDL and build tools
 You can download SDL from https://www.libsdl.org/
 
-#### Linux 
+#### Linux
 Copy this in the Terminal:
 ```bash
 sudo apt-get update && sudo apt-get install -y build-essential libsdl2-dev cmake
@@ -67,4 +77,9 @@ git checkout release/6.0
 ./configure --disable-all --disable-autodetect --disable-podpages --disable-asm --enable-avcodec --enable-avformat --enable-decoders --enable-encoders --enable-demuxers --enable-parsers --enable-protocol='file' --enable-swscale --enable-zlib
 make
 sudo make install
+```
+
+```
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lasan: No such file or directory
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lubsan: No such file or directory
 ```
